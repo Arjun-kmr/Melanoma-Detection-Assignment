@@ -1,7 +1,13 @@
 # Melanoma-CNN-Prediction
+To build a CNN based model which can accurately detect melanoma. Melanoma is a type of cancer that can be deadly if not detected early. It accounts for 75% of skin cancer deaths. A solution that can evaluate images and alert dermatologists about the presence of melanoma has the potential to reduce a lot of manual effort needed in diagnosis.
 
-## Problem Statement
-In this assignment, you will build a multiclass classification model using a custom convolutional neural network in tensorflow. 
+In this assignment, we will build a multiclass classification model using a custom convolutional neural network in TensorFlow.
+
+## Table of Contents
+General Info
+Technologies Used
+Conclusions
+Acknowledgements
 
  
 
@@ -21,11 +27,6 @@ The data set contains the following diseases:
 8. Squamous cell carcinoma
 9. Vascular lesion
  
-
-NOTE: You don't have to use any pre-trained model using Transfer learning. All the model building process should be based on a custom model.
-
- 
-
 #### Project Pipeline
 - Data Reading/Data Understanding → Defining the path for train and test images 
 - Dataset Creation→ Create train & validation dataset from the train directory with a batch size of 32. Also, make sure you resize your images to 180*180.
